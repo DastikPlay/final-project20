@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Jost';
+}
+
+.instagram {
+  background:
+    linear-gradient(57.44deg, #FFC107 -3.72%, #F44336 47.77%, #9C27B0 96.83%);
+}
