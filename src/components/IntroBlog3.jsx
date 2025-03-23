@@ -5,6 +5,7 @@ import Vesy from '../assets/Vesy.png'
 import Jaket from '../assets/Jaket.png'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
+import wk from '../assets/wk.jpg'
 
 const WatchPage = () => {
     const card = [
@@ -36,8 +37,8 @@ const WatchPage = () => {
                                 <div className=''>
                                     <img src={Vesy} alt="" />
                                 </div>
-                                <div>
-                                    <img src={Jaket} alt="" />
+                                <div className='h-[190px] w-[200px]'>
+                                    <img src={wk} alt="" />
                                 </div>
                                 <div className='border-[#EAEBED]'>
                                 <p className="text-[#282739] text-[18px] pt-[20px] font-medium w-[235px]">Защитная экипировка «Черепаха».</p>
@@ -55,7 +56,7 @@ const WatchPage = () => {
                                         </div>
                                     </div>
                                     <div className="flex gap-[10px] items-center">
-                                        <button className='w-[206px] h-[37px] bg-[#6F73EE] rounded-[5px] text-[white] text-[12px]'>Купить в 1 клик</button>
+                                        <button className='w-[206px] h-[37px] bg-[gray] rounded-[5px] text-[white] text-[12px]'>Купить в 1 клик</button>
                                 </div>
                                     </div>
                                 </div>
@@ -70,4 +71,4 @@ const WatchPage = () => {
     )
 }
 
-export default WatchPage;
+export default WatchPage;   

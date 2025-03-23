@@ -9,7 +9,7 @@ const Contact = () => {
       <div>
         <h3 className='text-[18px] font-semibold w-[199px]  text-[#282739] '>ОТДЕЛ РЕКЛАМАЦИЙ И ПРЕЗИНТАЦИЙ</h3>
         <div className='flex items-center gap-2 mt-[27px]'>
-          <img src={Gmail} alt="" /><h1>claim@kugoo-russia.ru</h1>
+          <img src={Gmail} alt="" /><h1>claim@gamego.ru</h1>
         </div>
         <div className='flex items-center gap-2 mt-[20px]'>
           <img src={Phone} alt="" /><h1>+7 (499) 350-76-92</h1>
@@ -20,8 +20,8 @@ const Contact = () => {
         </div>
         <p className='text-[#5D6C7B]'>Ср-Вс 10:00 - 19:00</p>
         <h1 className='text-[#6F73EE] mt-[12px]'>Скачать шаблон </h1>
-        <button className='bg-[#6F73EE] border-[0px] w-[157px] rounded-[5px] h-[37px] mt-[27px]'>
-          <h1 className='text-[white]'>Send message</h1>
+        <button className='py-[20px]'>
+          <h1 className='text-[white] font-semibold text-[15px] py-[6px] border-2 border-[gray] font-normal text-xs w-[157px] h-[37px] bg-[gray] rounded-[5px] hover:bg-[#EEEEEE] hover:text-[gray] transition'>Send message</h1>
         </button>
       </div>
       <div>
@@ -30,7 +30,7 @@ const Contact = () => {
         </h3>
         <div className='flex items-center gap-2 mt-[53px]'>
 
-          <img src={Gmail} alt="" /><h1>opt@kugoo-russia.ru</h1>
+          <img src={Gmail} alt="" /><h1>opt@gamego.ru</h1>
         </div>
         <div className='flex items-center gap-2 mt-[20px]'>
 
@@ -44,7 +44,7 @@ const Contact = () => {
         </h3>
         <div className='flex items-center gap-2 mt-[27px]'>
 
-          <img src={Gmail} alt="" /><h1>marketing@kugoo.ru</h1>
+          <img src={Gmail} alt="" /><h1>marketing@gamego.ru</h1>
         </div>
       </div>
       <div>

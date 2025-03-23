@@ -10,7 +10,7 @@ const IntroContact3 = () => {
         <div className='px-[165px] mt-[134px] flex items-center justify-between'>
             <div>
                 <h1 className="text-[#282739] font-semibold text-[25px] w-[500px]">ПОДПИСЫВАЙТЕСЬ И ПЕРВЫМИ УЗНАВАЙТЕ О НОВЫХ СКИДКАХ, АКЦИЯХ И РОЗЫГРЫШАХ ПОДАРКОВ</h1>
-                <p className='pt-[15px]'>Станьте частью сообщества Kugoo-Russia</p>
+                <p className='pt-[15px]'>Станьте частью сообщества GameGo</p>
             </div>
             <div className='w-[355px] h-[270px] bg-[#F4F7FB] rounded-[10px]'>
                 <div className='text-[white] flex flex-col gap-[10px] px-[33px] py-[30px]'>

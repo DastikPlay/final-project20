@@ -1,5 +1,4 @@
 import { Button } from "@mui/material"
-import Logo from '../assets/Kugoo.svg'
 import Google from '../assets/path13556.png'
 import AppStore from '../assets/Group.png'
 import Group from '../assets/_Group_.svg'
@@ -21,64 +20,37 @@ import Img3 from '../assets/003-telegram 1.png'
 const Footer = () => {
   return (
     <footer className="mt-[30px]">
-      <div className="h-[97px] bg-[#6F73EE] px-[165px] flex items-center justify-between">
+      <div className="h-[97px] bg-[gray] px-[165px] flex items-center justify-between">
         <h2 className="text-[white] text-[18px] font-semibold w-[445px]">ОСТАВЬТЕ СВОЮ ПОЧТУ И СТАНЬТЕ ПЕРВЫМ, КТО ПОЛУЧИТ СКИДКУ НА НОВЫЕ САМОКАТЫ</h2>
         <div className="flex gap-[20px]">
           <div>
-            <input className="w-[410px] h-[53px] pl-[15px] bg-[#7F83EE] text-[white] rounded-[5px]" type="email" placeholder="Введите Ваш email"/>
+            <input className="w-[410px] h-[53px] pl-[15px] bg-[white] text-[black] rounded-[5px]" type="email" placeholder="Введите Ваш email"/>
           </div>
           <div className='w-[191px] h-[53px] bg-[white] rounded-[5px]'>
-            <Button className='w-[191px] h-[53px] bg-[white]'>Подписаться</Button>
+            <Button className='w-[191px] h-[53px] bg-[white] '>Подписаться</Button>
           </div>
         </div>
       </div>
 
-      <div className="h-[510px] bg-[#F4F7FB] px-[165px] pt-[46px]">
+      <div className="h-[390px] bg-[#F4F7FB] px-[165px] pt-[46px]">
         <div className="flex justify-between">
-          <div className="flex">
             <div>
-              <p className="text-[#282739] text-[18px] font-semibold mb-[17px]">Каталог товаров</p>
-              <div className="flex flex-col gap-[10px]">
-                <p className="text-[#5D6C7B] text-[14px] ">Электросамокаты</p>
-                <p className="text-[#5D6C7B] text-[14px] ">Электроскутеры</p>
-                <p className="text-[#5D6C7B] text-[14px] ">Электровелосипеды</p>
-                <p className="text-[#5D6C7B] text-[14px] ">Электровелосипеды</p>
+              <div className="flex gap-[327px]">
+                <p className="text-[#282739] text-[18px] font-semibold mb-[17px]">Контакты</p>
+                <a className="text-[gray] text-[12px]" href="">Заказать звонок</a>
               </div>
-            </div>
-            <div className="flex flex-col ml-[125px]">
-              <p className="text-[#282739] text-[18px] font-semibold mb-[17px]">Покупателям</p>
-              <div className="flex">
-                <div className="flex flex-col gap-[10px]">
-                  <p className="text-[#5D6C7B] text-[14px] ">Сервисный центр</p>
-                  <p className="text-[#5D6C7B] text-[14px] ">Доставка и оплата</p>
-                  <p className="text-[#5D6C7B] text-[14px] ">Рассрочка</p>
-                  <p className="text-[#5D6C7B] text-[14px] ">Тест-драйв</p>
+              <div className="flex gap-[40px]">
+                <div className="flex flex-col gap-[6px]">
+                  <p className="text-[12px]">Call-центр</p>
+                  <p className="text-[#282739] text-[18 px] font-semibold">+7 (800) 505-54-61</p>
+                  <p className="text-[#5D6C7B] text-[14px]">Пн-Вс 10:00 - 20:00</p>
                 </div>
-                <div className="flex flex-col gap-[10px] ml-[44px]">
-                  <p className="text-[#5D6C7B] text-[14px] ">Блог</p>
-                  <p className="text-[#5D6C7B] text-[14px] ">Сотрудничество</p>
-                  <p className="text-[#5D6C7B] text-[14px] ">Контакты</p>
-                  <p className="text-[#5D6C7B] text-[14px] ">Акции</p>
+                <div className="flex flex-col gap-[6px]">
+                  <p className="text-[12px]">Сервисный центр</p>
+                  <p className="text-[#282739] text-[18 px] font-semibold">+7 (499) 350-76-92</p>
+                  <p className="text-[#5D6C7B] text-[14px]">Пн-Вс 10:00 - 20:00</p>
                 </div>
-              </div>
             </div>
-          </div>
-          <div>
-            <div className="flex gap-[327px]">
-              <p className="text-[#282739] text-[18px] font-semibold mb-[17px]">Контакты</p>
-              <a className="text-[#6F73EE] text-[12px]" href="">Заказать звонок</a>
-            </div>
-            <div className="flex gap-[40px]">
-              <div className="flex flex-col gap-[6px]">
-                <p className="text-[12px]">Call-центр</p>
-                <p className="text-[#282739] text-[18 px] font-semibold">+7 (800) 505-54-61</p>
-                <p className="text-[#5D6C7B] text-[14px]">Пн-Вс 10:00 - 20:00</p>
-              </div>
-              <div className="flex flex-col gap-[6px]">
-                <p className="text-[12px]">Сервисный центр</p>
-                <p className="text-[#282739] text-[18 px] font-semibold">+7 (499) 350-76-92</p>
-                <p className="text-[#5D6C7B] text-[14px]">Пн-Вс 10:00 - 20:00</p>
-              </div>
             </div>
             <div className="mt-[28px] flex gap-[50px]">
               <div>
@@ -97,11 +69,10 @@ const Footer = () => {
               </div>
             </div>
           </div>
-        </div>
         <div className="border border-[#5D6C7B] mt-[49px]"></div>
         <div className="h-[115px] flex items-center justify-between">
           <div className="flex gap-[59px]">
-          <img src={Logo} alt="dfd" />
+          <h1>GAMEGO</h1>
           <div className="flex gap-[10px]">
             <div className="w-[151px] h-[45px] bg-[#FFFFFF] rounded-[10px] shadow-2xl flex items-center gap-[7px]">
               <img className="w-[30px] h-[35px]" src="https://cdn.pixabay.com/photo/2016/08/31/00/49/google-1632434_640.png" alt="dfd" /> 

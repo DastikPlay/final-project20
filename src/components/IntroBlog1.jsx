@@ -3,7 +3,6 @@ import Insta from '../assets/013-instagram 1.svg'
 import Youtube from '../assets/018-youtube 1.svg'
 import TG from '../assets/003-telegram 2.png'
 import Vector from '../assets/Vector.png'
-import Mask from '../assets/Mask.svg'
 import { Link } from 'react-router-dom'
 
 const IntroBlog1 = () => {
@@ -13,16 +12,24 @@ const IntroBlog1 = () => {
         <img className='w-[19px] h-[17px]' src={Vector} alt="sffed" />
         <div className='flex gap-[5px]'>
           <Link className='text-[#5D6C7B]' to="/">Главная</Link>
-          <p> / Блог</p>
+          <p> / Донат</p>
         </div>
       </div>
 
       <div className='mt-[20px] px-[100px] flex'>
-        <img className='relative' src={Mask} alt="sggf" />
+        <img className='relative rounded-[15px]' src="https://pibig.info/uploads/posts/2022-12/1670016281_7-pibig-info-p-cherno-oranzhevii-fon-oboi-7.png" alt="sggf" />
         <div className='absolute py-[74.5px] pl-[133px]'>
-          <h1 className='text-[#FFFFFF] w-[600px] text-[35px] font-semibold pt-[px]'>
-            БЛОГ KUGOO
+          <h1 className='text-[#FFFFFF] w-[1400px] text-[140px] font-semibold pt-[px]'>
+            БЛОГ GAMEGO
           </h1>
+          <div className='flex gap-[100px] '>
+            <img className='w-[350px] h-[200px] rounded-[15px]' src="https://skinvault.gg/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmain-banner.7b821cda.png&w=3840&q=75" alt="sdf" />
+            <img className='w-[350px] h-[200px] rounded-[15px]' src="https://www.psu.com/wp/wp-content/uploads/2023/02/For-PSU-Article-1.jpg" alt="sdf" />
+          </div>
+          <div className='flex'>
+            <img className='w-[400px] h-[200px] rounded-[15px] mt-[25px] ml-[100px]' src="https://skinsmonkey.com/og_image.png" alt="sdf" />
+            <img className='w-[400px] h-[200px] rounded-[15px] mt-[25px] ml-[100px]' src="https://i.ytimg.com/vi/88fjxxcvmR8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCNAds7MGUPCiCy6ehSRZTf3YRpSA" alt="sdf" />
+          </div>
         </div>
       </div>
 

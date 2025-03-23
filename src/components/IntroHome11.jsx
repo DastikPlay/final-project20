@@ -21,8 +21,7 @@ const IntroHome11 = () => {
               <Typography component="span">Есть ли гарантия того, что придет именно то, что было заказано? А если я оплачу и товар не придет?</Typography>
               </AccordionSummary>
               <AccordionDetails>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                malesuada lacus ex, sit amet blandit leo lobortis eget.
+                Да, у нас имеются отзывы и мы гарантируем о безопасности и правильности заказа
               </AccordionDetails>
             </Accordion>
             <Accordion>
@@ -31,11 +30,10 @@ const IntroHome11 = () => {
                 aria-controls="panel1-content"
                 id="panel1-header"
               >
-              <Typography component="span">У меня в городе самокаты Kugoo дешевле. Почему?</Typography>
+              <Typography component="span">В Steam все  дешевле. Почему?</Typography>
               </AccordionSummary>
               <AccordionDetails>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                malesuada lacus ex, sit amet blandit leo lobortis eget.
+                Незнаем с чего вы вдруг так решили но у нашего сервиса самые дешевые скины снг
               </AccordionDetails>
             </Accordion>
             <Accordion>
@@ -44,16 +42,10 @@ const IntroHome11 = () => {
                 aria-controls="panel1-content"
                 id="panel1-header"
               >
-              <Typography component="span">Как осуществляется сервисное обслуживание в моем городе? Где гарантия, что меня обслужат?</Typography>
+              <Typography component="span">Как осуществляется сервисное обслуживание ? Где гарантия, что меня обслужат?</Typography>
               </AccordionSummary>
               <AccordionDetails>
-              При покупке электросамоката у нас, вам выдается кассовый чек, товарный чек и гарантийный талон – эти документы дают право на гарантийное обслуживание на законодательном уровне.
-
-              Наши сервисные центры находятся в Москве, Санкт-Петербурге и Краснодаре. В случае поломки вы можете обратиться туда.
-
-              Если вы живете в городе, где нет нашего сервисного центра, то наш специалист поможет решить вопрос удаленно. Он сможет понять какая запчасть вышла из строя и отправит ее вам, если вы сможете сами заменить ее. Если удаленно решить вопрос не удастся, специалист создаст трек номер и попросит вас отправить самокат транспортной компанией CDEK. Транспортировку Товара (с ремонта/на ремонт) Покупатель оплачивает самостоятельно или осуществляет доставку Товара до СЦ своими силами и за свой счет.
-
-              В соответствии со ст. 20 ФЗ «О защите прав потребителей» на ремонт по гарантии дается не более 45 дней. В городах, где есть наш сервисный центр ремонт проводится за 3-7 дней.
+             В каждой точке мира сервисное обслуживание одинаково , мы даем 100% гарантию что обслужим каждого покупателя   
               </AccordionDetails>
             </Accordion>
             <Accordion>
@@ -62,11 +54,10 @@ const IntroHome11 = () => {
                 aria-controls="panel1-content"
                 id="panel1-header"
               >
-              <Typography component="span">Где находятся пункты самовывоза в моем городе?</Typography>
+              <Typography component="span">Имеются ли какие то бонусы при покупке?</Typography>
               </AccordionSummary>
               <AccordionDetails>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                malesuada lacus ex, sit amet blandit leo lobortis eget.
+                Конечно мы выдаем бонусы в виде 3% кэшбэка при 2-ой покупке у нашего магазина
               </AccordionDetails>
             </Accordion>
           </div>

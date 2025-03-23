@@ -6,11 +6,11 @@ const IntroContact2 = () => {
     return (
         <div>
           <div className='flex justify-center gap-[20px] mt-[50px]'>
-            <button className="shadow-2xl text-[#5D6C7B] font-normal text-xs w-[145px] h-[53px] bg-[#F4F7FB] rounded-[5px] hover:bg-none hover:text-[#6F73EE] hover:border-2 border-[#6F73EE] transition">Москва и МО</button>
-            <button className="shadow-2xl text-[#5D6C7B] font-normal text-xs w-[265px] h-[53px] bg-[#F4F7FB] rounded-[5px] hover:bg-none hover:text-[#6F73EE] hover:border-2 border-[#6F73EE] transition">Санкт-Петербург и Ленобласть</button>
-            <button className="shadow-2xl text-[#5D6C7B] font-normal text-xs w-[128px] h-[53px] bg-[#F4F7FB] rounded-[5px] hover:bg-none hover:text-[#6F73EE] hover:border-2 border-[#6F73EE] transition">Краснодар</button>
-            <button className="shadow-2xl text-[#5D6C7B] font-normal text-xs w-[96px] h-[53px] bg-[#F4F7FB] rounded-[5px] hover:bg-none hover:text-[#6F73EE] hover:border-2 border-[#6F73EE] transition">Минск</button>
-            <button className="shadow-2xl text-[#5D6C7B] font-normal text-xs w-[201px] h-[53px] bg-[#F4F7FB] rounded-[5px] hover:bg-none hover:text-[#6F73EE] hover:border-2 border-[#6F73EE] transition">Пункты выдачи CDEK</button>
+            <button className="shadow-2xl text-[white] border-2 border-[gray] font-normal text-xs w-[145px] h-[53px] bg-[gray] rounded-[5px] hover:bg-[#EEEEEE] hover:text-[gray] transition">Москва и МО</button>
+            <button className="shadow-2xl text-[white] border-2 border-[gray] font-normal text-xs w-[265px] h-[53px] bg-[gray] rounded-[5px] hover:bg-[#EEEEEE] hover:text-[gray] transition">Санкт-Петербург и Ленобласть</button>
+            <button className="shadow-2xl text-[white] border-2 border-[gray] font-normal text-xs w-[128px] h-[53px] bg-[gray] rounded-[5px] hover:bg-[#EEEEEE] hover:text-[gray] transition">Краснодар</button>
+            <button className="shadow-2xl text-[white] border-2 border-[gray] font-normal text-xs w-[96px] h-[53px] bg-[gray] rounded-[5px] hover:bg-[#EEEEEE] hover:text-[gray] transition">Минск</button>
+            <button className="shadow-2xl text-[white] border-2 border-[gray] font-normal text-xs w-[201px] h-[53px] bg-[gray] rounded-[5px] hover:bg-[#EEEEEE] hover:text-[gray] transition">Пункты выдачи CDEK</button>
           </div>
             <div className='mt-[50px] flex items-center justify-between ml-[165px]'>
               <div>
@@ -52,11 +52,10 @@ const IntroContact2 = () => {
                     </div>
                     <div className='ml-[20px] text-[14px]'>
                       <div>
-                        <p className='w-[426px]'> <span className='font-medium'>Бесплатная парковка</span> (для въезда предварительно запросите
-                            у менеджера пропуск)</p>
+                        <p className='w-[426px]'> <span className='font-medium'>Бесплатный донат</span> (для бесплатного доната нужен Донат VIP)</p>
                       </div>
                       <div className='mt-[25px]'>
-                        <p className='w-[426px]'>Перед посещением магазина, пожалуйста, <span className='font-medium'>уточняйте наличие рассматриваемой вами модели по телефону</span>  у менеджера. </p>
+                        <p className='w-[426px]'>Перед бесплатным донатом, <span className='font-medium'>купите Донат VIP и оформите подписку в наших соцсетях</span>. </p>
                       </div>
                       <div className='mt-[25px]'>
                         <p className='w-[426px]'> <span className='font-medium'>Возьмите с собой паспорт или другой документ</span>, удостоверяющий личность – он может понадобиться для прохождения через пропускной пункт.</p>
